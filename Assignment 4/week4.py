@@ -60,7 +60,7 @@ print("The last three items in the list are:")
 print(pizzas[-3:])
 
 pizzas = ['pepperoni', 'margherita', 'bbq chicken']
-friend_pizzas = pizzas[:]  # Copy of the original list
+friend_pizzas = pizzas[:]
 
 pizzas.append('hawaiian')
 friend_pizzas.append('mushroom')
@@ -89,7 +89,7 @@ buffet_foods = ('fried rice', 'noodles', 'grilled chicken', 'salad', 'fruit sala
 print("Original buffet menu:")
 for food in buffet_foods:
     print(food)
-    
+
 buffet_foods = ('fried rice', 'noodles', 'sushi', 'dumplings', 'fruit salad')
 
 print("\nRevised buffet menu:")

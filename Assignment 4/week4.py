@@ -1,15 +1,10 @@
-menu = ("french fries", "burgers", "tacos", "salad", "Sandwiches","tacos")
+tacos = ['steak', 'vegan', 'chicken']
 
-print("Original menu:")
-for food in menu:
-    print(f"- {food}")
-try:
-    menu[0] = "soup"
-except TypeError as e:
-    print("\nError: Cannot modify a tuple. Tuples are immutable")
-    print(f"python says: {e}") 
-menu = ("french fries", "Burgers", "Tacos", "sushi", "nachos", ) 
+for taco in tacos:
+    print(f"I like {taco} tacos.")
 
-print("\Revised Menu:")
-for food in menu:
-    print(f"- {food}")
+print("\nI enjoy trying different kinds of tacos.")
+print("steak has that classic flavor I never get tired of.")
+print("vegan is so fresh and simple—perfect comfort food.")
+print("chicken brings a smoky twist that I love!")
+print("I really love tacos!")
